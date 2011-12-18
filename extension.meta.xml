@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="pingomatic" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Ping-o-matic</name>
+	<description>Ping the Ping-o-matic service when creating new content</description>
+	<repo type="github">https://github.com/nickdunn/pingomatic</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/32925/</url>
+	<types>
+		<type>Events</type>
+		<type>Third Party Integration</type>
+	</types>
+	<authors>
+		<author>
+			<name github="nickdunn" symphony="nickdunn">Nick Dunn</name>
+			<website>http://nick-dunn.co.uk</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.1" date="2009-06-11" min="2.0.6" />
+	</releases>
+</extension>
