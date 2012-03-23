@@ -31,7 +31,6 @@
             $ch->setopt('URL', 'http://rpc.pingomatic.com/');
             $ch->setopt('POST', 1);
             $ch->setopt('CONTENTTYPE', 'text/xml');
-            $ch->setopt('HTTPVERSION', CURL_HTTP_VERSION_1_0);
             
             $xml = new XMLElement('methodCall');
             $xml->appendChild(new XMLElement('methodName', 'weblogUpdates.ping'));
